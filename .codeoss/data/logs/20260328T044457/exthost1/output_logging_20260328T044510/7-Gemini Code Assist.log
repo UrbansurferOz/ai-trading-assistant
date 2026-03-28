@@ -425,3 +425,5 @@ I0328 04:50:17.129066    2554 configuration.go:660] Repopulating context cache f
 I0328 04:55:31.266633    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
 I0328 05:05:31.265647    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
 I0328 05:15:31.266116    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 05:25:31.266634    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 05:35:31.266591    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric

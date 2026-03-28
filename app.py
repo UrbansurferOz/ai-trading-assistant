@@ -2,19 +2,16 @@ import streamlit as st
 from google.cloud import discoveryengine_v1beta as discoveryengine
 from PIL import Image
 
-st.set_page_config(page_title="TBD Command Center v3.3", layout="wide")
+st.set_page_config(page_title="TBD Command Center v3.4", layout="wide")
 
-# Sidebar - Verified v3.1 Logic
 with st.sidebar:
     st.title("📁 TBD Analysis Tools")
-    st.markdown("---")
-    uploaded_file = st.file_uploader("Upload Chart (BTC/SOL/ETH)", type=['png', 'jpg', 'jpeg']) 
+    uploaded_file = st.file_uploader("Upload Chart", type=['png', 'jpg', 'jpeg']) 
     if uploaded_file:
         st.image(Image.open(uploaded_file), use_container_width=True)
     st.divider()
-    st.caption("Persona: Steve, Crypto Trader")
     st.info("System: Sydney Enterprise Engine")
-    st.caption("Credit Source: GenAI App Builder")
+    st.caption("Credit: GenAI App Builder ($1,500)")
 
 st.title("📈 TBD Methodology Assistant")
 
@@ -23,11 +20,13 @@ def search_methodology(query):
         client = discoveryengine.SearchServiceClient()
         serving_config = f"projects/ai-trading-assistant-488403/locations/global/collections/default_collection/engines/tbd-trading-engine/servingConfigs/default_search"
         
-        # Exact spec that worked in your CURL test
         content_search_spec = discoveryengine.SearchRequest.ContentSearchSpec(
             summary_spec=discoveryengine.SearchRequest.ContentSearchSpec.SummarySpec(
                 summary_result_count=5,
                 include_citations=True
+            ),
+            extractive_content_spec=discoveryengine.SearchRequest.ContentSearchSpec.ExtractiveContentSpec(
+                max_extractive_answer_count=3
             )
         )
 
@@ -35,27 +34,34 @@ def search_methodology(query):
             serving_config=serving_config,
             query=query,
             content_search_spec=content_search_spec,
-            page_size=1
+            page_size=3
         )
         
         response = client.search(request)
         
-        # Display the Summary (This is the high-value credit-based output)
+        # Priority 1: High-level Summary
         if response.summary and response.summary.summary_text:
             return response.summary.summary_text
             
-        return "🔍 Search engine returned results, but no summary was generated yet. Try a more specific TBD term like 'Three Hits to the High'."
+        # Priority 2: Extractive Snippets (Fallback)
+        snippets = []
+        for result in response.results:
+            derived = result.document.derived_struct_data
+            if "extractive_answers" in derived:
+                for ans in derived["extractive_answers"]:
+                    snippets.append(ans.get("content", ""))
+        
+        if snippets:
+            return "### Key Snippets Found\n\n" + "\n\n---\n\n".join(snippets)
+
+        return "🔍 The engine is active but found no matches for that specific phrase. Try 'M Formation' or 'Vector'."
 
     except Exception as e:
-        return f"System Error: {str(e)}"
+        return f"📡 Connection Error: {str(e)}"
 
-query = st.text_input("Ask about your TBD Methodology (e.g. 'W Pattern'):")
-
+query = st.text_input("Ask about your TBD Methodology:")
 if query:
-    with st.spinner("GenAI is scanning 51 PDFs in Sydney..."):
-        answer = search_methodology(query)
-        st.markdown("### TBD Methodology Insights")
-        st.write(answer)
+    with st.spinner("Querying Sydney Data Store..."):
+        st.markdown(search_methodology(query))
 
-st.divider()
-st.caption("v3.3 - Stable Branch - GCB Optimized")
+st.caption("v3.4 - Recovery Branch - Identity Verified")

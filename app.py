@@ -4,12 +4,16 @@ import vertexai
 from vertexai.generative_models import GenerativeModel, Part
 import io
 
-# Config
+# Config - Using the confirmed Project ID
 PROJECT_ID = "ai-trading-assistant-488403"
 LOCATION = "us-central1"
-vertexai.init(project=PROJECT_ID, location=LOCATION)
 
-st.set_page_config(page_title="TBD Command Center v3.5", layout="wide")
+try:
+    vertexai.init(project=PROJECT_ID, location=LOCATION)
+except Exception as e:
+    st.error(f"Vertex AI Init Failed: {e}")
+
+st.set_page_config(page_title="TBD Command Center v3.6", layout="wide")
 
 with st.sidebar:
     st.title("📁 TBD Analysis Tools")
@@ -19,7 +23,7 @@ with st.sidebar:
         st.image(uploaded_file, use_container_width=True)
     st.divider()
     st.info("System: Sydney Search + Vertex Vision")
-    st.caption("Credit: GenAI App Builder ($1,500)")
+    st.caption("Status: v3.6 Baseline")
 
 st.title("📈 TBD Methodology Assistant")
 
@@ -40,21 +44,25 @@ def get_tbd_rules(query):
 
 def analyze_with_vision(query, file, rules):
     """Gemini looks at the screenshot and applies the TBD rules."""
-    model = GenerativeModel("gemini-1.5-flash")
-    img_part = Part.from_data(data=file.getvalue(), mime_type=file.type)
-    
-    full_prompt = f"""
-    Context from TBD Methodology Manuals:
-    {rules}
-    
-    User Question: {query}
-    
-    As Steve (Crypto Trader), analyze the attached chart. 
-    Identify if there are W/M patterns, 200 EMA alignments, or 3-hits to high/low 
-    based on the provided context rules. Be direct and concise.
-    """
-    response = model.generate_content([full_prompt, img_part])
-    return response.text
+    try:
+        # Using a specific model version to avoid the 404
+        model = GenerativeModel("gemini-1.5-flash-002")
+        img_part = Part.from_data(data=file.getvalue(), mime_type=file.type)
+        
+        full_prompt = f"""
+        Context from TBD Methodology Manuals:
+        {rules}
+        
+        User Question: {query}
+        
+        As Steve (Expert Crypto Trader), analyze this chart. 
+        Focus on W/M patterns, 200 EMA, and TBD rules. 
+        If the data store found no rules, use your knowledge of 'Trade by Design'.
+        """
+        response = model.generate_content([full_prompt, img_part])
+        return response.text
+    except Exception as e:
+        return f"🚨 Vision API Error: {str(e)}"
 
 query = st.text_input("Ask about the chart or TBD rules:")
 
@@ -71,4 +79,4 @@ if query:
             st.write(rules_context if rules_context else "No specific rules found. Try 'W Pattern'.")
 
 st.divider()
-st.caption("v3.5 - Vision Integrated - Sydney/US-Central")
+st.caption("Credit: GenAI App Builder ($1,500 Trial)")

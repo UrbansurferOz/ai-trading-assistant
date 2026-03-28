@@ -260,3 +260,20 @@ git add app.py requirements.txt safe_stable_deploy.sh stable_deploy.sh .gitignor
 # 6. Commit and Force Push (This will be tiny—just a few KB)
 git commit -m "v3.2: Complete repository reset - source code only"
 git push origin main --force
+# 1. Rename the local 'master' branch to 'main'
+git branch -m main
+# 2. Push the clean, tiny source code to GitHub
+git push origin main --force
+# 3. Final verification - your Safe Stable Deployer is now ready
+./safe_stable_deploy.sh "v3.2: Confirmed Sydney deployment with clean branch"
+# 1. Update .gitignore to block all JSON keys
+echo "*.json" >> .gitignore
+# 2. Remove the specific service account key from Git tracking
+git rm --cached ai-trading-assistant-488403-d06cf9935743.json
+# 3. Clean out all the other "junk" files that were in that massive list (logs, npm, etc.)
+git rm -r --cached .codeoss/ .npm/ .gsutil/ .local/ > /dev/null 2>&1
+# 4. Re-commit the clean state
+git add .gitignore
+git commit --amend --no-edit
+# 5. Force push the clean, secure code
+git push origin main --force

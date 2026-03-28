@@ -1,0 +1,9 @@
+.local/
+.cache/
+.gemini/
+.config/
+ai-trading-assistant/
+venv/
+__pycache__/
+*.pyc
+.git-credentials

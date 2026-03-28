@@ -427,3 +427,14 @@ I0328 05:05:31.265647    2554 life_cycle.go:460] aiCharsReportEvery: compute and
 I0328 05:15:31.266116    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
 I0328 05:25:31.266634    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
 I0328 05:35:31.266591    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 05:45:31.265806    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 05:45:44.395506    2554 conn_opt.go:55] jsonrpc2: --> request #11: remoteRepositories/list: {}
+I0328 05:45:44.421095    2554 conn_opt.go:55] jsonrpc2: --> request #12: remoteRepositories/list: {}
+I0328 05:45:59.684245    2554 conversation.go:533] response from ListRemoteRepositories <nil>
+E0328 05:45:59.684365    2554 server.go:495] error fulfilling "remoteRepositories/list" request #11, &{}: Get "https://cloudcode-pa.googleapis.com:443/v1internal:listRemoteRepositories?alt=json&pageToken=&prettyPrint=false&project=cloudshell-gca": credentials: invalid token JSON from metadata: EOF
+I0328 05:45:59.684464    2554 conn_opt.go:99] jsonrpc2: <-- error #11: remoteRepositories/list: {"code":-32603,"message":"Get \"https://cloudcode-pa.googleapis.com:443/v1internal:listRemoteRepositories?alt=json\u0026pageToken=\u0026prettyPrint=false\u0026project=cloudshell-gca\": credentials: invalid token JSON from metadata: EOF","data":null}
+I0328 05:45:59.686883    2554 conversation.go:533] response from ListRemoteRepositories <nil>
+E0328 05:45:59.686942    2554 server.go:495] error fulfilling "remoteRepositories/list" request #12, &{}: Get "https://cloudcode-pa.googleapis.com:443/v1internal:listRemoteRepositories?alt=json&pageToken=&prettyPrint=false&project=cloudshell-gca": credentials: invalid token JSON from metadata: EOF
+I0328 05:45:59.686996    2554 conn_opt.go:99] jsonrpc2: <-- error #12: remoteRepositories/list: {"code":-32603,"message":"Get \"https://cloudcode-pa.googleapis.com:443/v1internal:listRemoteRepositories?alt=json\u0026pageToken=\u0026prettyPrint=false\u0026project=cloudshell-gca\": credentials: invalid token JSON from metadata: EOF","data":null}
+I0328 05:46:04.390773    2554 conn_opt.go:53] jsonrpc2: --> notif: telemetry/sendEvents: <truncated 826 bytes>
+I0328 05:46:04.391168    2554 conn_opt.go:53] jsonrpc2: --> notif: telemetry/sendEvents: <truncated 723 bytes>

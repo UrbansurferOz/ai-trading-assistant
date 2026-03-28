@@ -438,3 +438,7 @@ E0328 05:45:59.686942    2554 server.go:495] error fulfilling "remoteRepositorie
 I0328 05:45:59.686996    2554 conn_opt.go:99] jsonrpc2: <-- error #12: remoteRepositories/list: {"code":-32603,"message":"Get \"https://cloudcode-pa.googleapis.com:443/v1internal:listRemoteRepositories?alt=json\u0026pageToken=\u0026prettyPrint=false\u0026project=cloudshell-gca\": credentials: invalid token JSON from metadata: EOF","data":null}
 I0328 05:46:04.390773    2554 conn_opt.go:53] jsonrpc2: --> notif: telemetry/sendEvents: <truncated 826 bytes>
 I0328 05:46:04.391168    2554 conn_opt.go:53] jsonrpc2: --> notif: telemetry/sendEvents: <truncated 723 bytes>
+I0328 05:55:31.266394    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 06:05:31.266665    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 06:15:31.265784    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric
+I0328 06:25:31.265712    2554 life_cycle.go:460] aiCharsReportEvery: compute and send aicharsreport metric

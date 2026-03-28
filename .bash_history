@@ -1,31 +1,3 @@
-# Fetch the latest from GitHub
-git fetch origin main
-# Reset your local files to that specific commit
-git reset --hard 1b7ded7
-# Verify the version
-cat app.py | grep -i "version"
-cat << 'EOF' > app.py
-import streamlit as st
-from google.cloud import discoveryengine_v1beta as discoveryengine
-from PIL import Image
-
-# UI Baseline from v3.1
-st.set_page_config(page_title="TBD Command Center v3.2", layout="wide")
-
-# Sidebar - Verified v3.1 Logic
-with st.sidebar:
-    st.title("📁 TBD Analysis Tools")
-    st.markdown("---")
-    uploaded_file = st.file_uploader("Upload Chart (BTC/SOL/ETH)", type=['png', 'jpg', 'jpeg'])
-    if uploaded_file:
-        st.image(Image.open(uploaded_file), use_container_width=True)
-    st.divider()
-    st.caption("Persona: Steve, Crypto Trader")
-    st.info("System: Sydney Enterprise Engine")
-    st.caption("Credit Source: GenAI App Builder")
-
-st.title("📈 TBD Methodology Assistant")
-
 def search_methodology(query):
     try:
         client = discoveryengine.SearchServiceClient()
@@ -519,3 +491,10 @@ gcloud projects add-iam-policy-binding ai-trading-assistant-488403     --member=
 # 2. Assign the Discovery Engine Editor role (to generate the summaries)
 gcloud projects add-iam-policy-binding ai-trading-assistant-488403     --member="serviceAccount:521864748129-compute@developer.gserviceaccount.com"     --role="roles/discoveryengine.editor"
 gcloud auth login
+# 1. Set the active project context
+gcloud config set project ai-trading-assistant-488403
+# 2. Assign the missing Discovery Engine roles
+gcloud projects add-iam-policy-binding ai-trading-assistant-488403     --member="serviceAccount:521864748129-compute@developer.gserviceaccount.com"     --role="roles/discoveryengine.viewer"
+gcloud projects add-iam-policy-binding ai-trading-assistant-488403     --member="serviceAccount:521864748129-compute@developer.gserviceaccount.com"     --role="roles/discoveryengine.editor"
+# 3. Final Deployment of v3.5 (The "Vision" version)
+./safe_stable_deploy.sh "v3.5: Post-auth IAM fix and Vision deployment"

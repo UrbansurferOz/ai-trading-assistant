@@ -277,3 +277,15 @@ git add .gitignore
 git commit --amend --no-edit
 # 5. Force push the clean, secure code
 git push origin main --force
+./safe_stable_deploy.sh "v3.2: Final secure and pruned Sydney deployment"
+No results could be found. Try rephrasing the search query.
+# 1. Test the Search Engine directly via CLI
+curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" "https://discoveryengine.googleapis.com/v1beta/projects/ai-trading-assistant-488403/locations/global/collections/default_collection/engines/tbd-trading-engine/servingConfigs/default_search:search" -d '{
+  "query": "W Pattern",
+  "pageSize": 1,
+  "contentSearchSpec": {
+    "summarySpec": {
+      "summaryResultCount": 5
+    }
+  }
+}'

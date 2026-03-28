@@ -1,0 +1,11 @@
+2026-03-08 06:54:06.224 [info] 
+
+
+
+
+2026-03-08 06:54:06.254 [info] Extension host agent started.
+2026-03-08 06:54:09.057 [info] [127.0.0.1][66f62a65][ManagementConnection] New connection established.
+2026-03-08 06:54:09.313 [info] [127.0.0.1][725d2d81][ExtensionHostConnection] New connection established.
+2026-03-08 06:54:13.168 [info] [127.0.0.1][725d2d81][ExtensionHostConnection] <2682> Launched Extension Host Process.
+2026-03-08 07:28:30.606 [info] [127.0.0.1][725d2d81][ExtensionHostConnection] The client has reconnected.
+2026-03-08 07:28:31.036 [info] [127.0.0.1][66f62a65][ManagementConnection] The client has reconnected.

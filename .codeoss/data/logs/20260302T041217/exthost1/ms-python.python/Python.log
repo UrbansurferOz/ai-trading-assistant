@@ -1,0 +1,15 @@
+2026-03-02 04:14:32.432 [warning] Dir "/home/stevewwhite/.pixi/envs" is not watchable (directory does not exist)
+2026-03-02 04:14:33.662 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-02 04:14:33.665 [info] Python interpreter path: /bin/python
+2026-03-02 04:14:34.109 [info] > pyenv which python
+2026-03-02 04:14:34.109 [info] cwd: .
+2026-03-02 04:14:36.831 [info] Starting Jedi language server for stevewwhite.
+2026-03-02 04:14:37.836 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-02 04:14:43.291 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-02 04:15:21.827 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-02 04:15:27.530 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-02 05:40:18.547 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-final-push/deploy.py
+2026-03-02 05:40:22.863 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-final-push/deploy.py
+2026-03-02 05:40:26.505 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-final-push/deploy.py
+2026-03-02 05:41:49.478 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-final-push/deploy.py
+2026-03-02 05:41:51.961 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-final-push/deploy.py

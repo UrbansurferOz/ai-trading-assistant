@@ -1,0 +1,35 @@
+2026-03-02 04:14:48.579 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2"
+WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3"
+WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4"
+WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5"
+
+2026-03-02 05:40:26.182 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "18"
+
+2026-03-02 05:40:28.935 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "21"
+
+2026-03-02 05:40:28.944 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "22"
+
+2026-03-02 05:40:28.944 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "23"
+
+2026-03-02 05:40:28.952 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "25"
+
+2026-03-02 05:40:28.954 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "19"
+
+2026-03-02 05:40:28.956 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "20"
+
+2026-03-02 05:40:28.959 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "26"
+
+2026-03-02 05:40:29.037 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "27"
+
+2026-03-02 05:40:29.050 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "29"
+
+2026-03-02 05:40:29.050 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "28"
+
+2026-03-02 05:40:29.051 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "30"
+
+2026-03-02 05:41:48.137 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "36"
+
+2026-03-02 05:41:48.146 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "38"
+
+2026-03-02 05:41:48.153 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "39"
+

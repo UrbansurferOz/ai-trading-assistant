@@ -1,0 +1,105 @@
+2026-03-01 01:35:59.354 [warning] Dir "/home/stevewwhite/.pixi/envs" is not watchable (directory does not exist)
+2026-03-01 01:36:00.374 [info] Starting Environment refresh
+2026-03-01 01:36:00.374 [info] Searching for interpreters in posix paths locator
+2026-03-01 01:36:00.383 [info] Searching for pyenv environments
+2026-03-01 01:36:00.383 [info] Searching for conda environments
+2026-03-01 01:36:00.383 [info] Searching for global virtual environments
+2026-03-01 01:36:00.383 [info] Searching for custom virtual environments
+2026-03-01 01:36:00.403 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-01 01:36:00.404 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-01 01:36:00.408 [info] pyenv is not installed
+2026-03-01 01:36:00.408 [info] Finished searching for pyenv environments: 33 milliseconds
+2026-03-01 01:36:00.408 [info] Finished searching for custom virtual envs: 32 milliseconds
+2026-03-01 01:36:00.423 [info] > conda info --json
+2026-03-01 01:36:00.436 [info] > hatch env show --json
+2026-03-01 01:36:00.436 [info] cwd: .
+2026-03-01 01:36:00.459 [info] > pyenv which python
+2026-03-01 01:36:00.459 [info] cwd: .
+2026-03-01 01:36:00.459 [info] Finished searching for global virtual envs: 83 milliseconds
+2026-03-01 01:36:00.495 [info] Found: /bin/python --> /bin/python3.12
+2026-03-01 01:36:00.520 [info] Found: /bin/python3 --> /bin/python3.12
+2026-03-01 01:36:00.523 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-03-01 01:36:00.568 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-03-01 01:36:00.582 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-03-01 01:36:00.587 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-03-01 01:36:00.678 [info] Finished searching for interpreters in posix paths locator: 296 milliseconds
+2026-03-01 01:36:00.678 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-03-01 01:36:00.711 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-03-01 01:36:00.712 [info] Environments refresh paths discovered (event): 339 milliseconds
+2026-03-01 01:36:00.712 [info] Environments refresh paths discovered: 340 milliseconds
+2026-03-01 01:36:00.777 [info] Environments refresh finished (event): 405 milliseconds
+2026-03-01 01:36:00.788 [info] Environment refresh took 416 milliseconds
+2026-03-01 01:36:00.799 [info] Python interpreter path: /bin/python
+2026-03-01 01:36:03.679 [info] Starting Jedi language server for stevewwhite.
+2026-03-01 01:37:35.568 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/rag/agent.py
+2026-03-01 01:37:37.387 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/rag/agent.py
+2026-03-01 01:38:47.992 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/rag/agent.py
+2026-03-01 03:39:26.697 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/rag/agent.py
+2026-03-01 03:39:33.457 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/rag/agent.py
+2026-03-01 03:39:42.518 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/rag/agent.py
+2026-03-01 04:49:39.593 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 04:49:56.705 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:00:38.996 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:00:46.253 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:12:47.019 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:12:50.085 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:28:30.263 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:28:32.530 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/agent.py
+2026-03-01 05:42:16.516 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:42:20.251 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:42:21.800 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:43:57.772 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:44:00.147 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:44:53.111 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:44:54.699 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:46:01.797 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:46:04.776 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:46:47.234 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:47:40.519 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:47:41.885 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:51:00.629 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:51:05.692 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:52:30.411 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 05:52:32.938 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/direct_audit.py
+2026-03-01 06:01:17.704 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/refresh_corpus.py
+2026-03-01 06:01:23.546 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/refresh_corpus.py
+2026-03-01 06:01:25.883 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/refresh_corpus.py
+2026-03-01 06:02:53.782 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:03:00.822 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:04:46.094 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:04:57.985 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:05:00.492 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:05:45.383 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:05:47.595 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:06:38.179 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:06:40.175 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:07:25.721 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:07:30.299 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:08:26.207 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:08:29.494 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:09:46.896 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:09:49.629 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:13:35.367 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:13:37.370 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 06:15:25.154 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/system_check.py
+2026-03-01 06:15:28.333 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/system_check.py
+2026-03-01 07:12:16.646 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:12:18.357 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:12:20.364 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:15:23.067 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:15:31.399 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:18:50.031 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/ping.py
+2026-03-01 07:18:51.604 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/ping.py
+2026-03-01 07:18:56.507 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/ping.py
+2026-03-01 07:20:47.885 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/ping.py
+2026-03-01 07:20:49.816 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/ping.py
+2026-03-01 07:24:44.858 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:31:35.888 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:32:06.567 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:34:22.853 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:34:25.087 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:36:45.941 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:36:58.294 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:37:00.272 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:38:07.116 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py
+2026-03-01 07:38:07.733 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/rag-21857/nyc_audit.py

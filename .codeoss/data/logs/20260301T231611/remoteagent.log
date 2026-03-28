@@ -1,0 +1,11 @@
+2026-03-01 23:16:11.615 [info] 
+
+
+
+
+2026-03-01 23:16:11.634 [info] Extension host agent started.
+2026-03-01 23:16:17.406 [info] [127.0.0.1][1fe4de3a][ManagementConnection] New connection established.
+2026-03-01 23:16:17.675 [info] [127.0.0.1][53abb0c0][ExtensionHostConnection] New connection established.
+2026-03-01 23:16:20.178 [info] [127.0.0.1][53abb0c0][ExtensionHostConnection] <1995> Launched Extension Host Process.
+2026-03-01 23:16:49.153 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/stevewwhite/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory (EUNKNOWN) (path: /home/stevewwhite)
+2026-03-01 23:16:49.154 [error] [File Watcher (universal)] inotify_add_watch on '/home/stevewwhite/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory

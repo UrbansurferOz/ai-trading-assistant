@@ -1,0 +1,27 @@
+Starting background process...
+Background process started with PID 1617
+[INFO] 2026-03-01 10:49:58.642 AM -- [CoderAgentExecutor] Overriding workspace path to: /home/stevewwhite
+[ERROR] 2026-03-01 10:49:58.647 AM -- Warning: unexpected file /home/stevewwhite/.gemini/extensions/extension-enablement.json in extensions directory.
+[ERROR] 2026-03-01 10:49:58.648 AM -- Warning: unexpected file /home/stevewwhite/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-03-01 10:49:58.649 AM -- Loading extension: vertex (version: 0.2.0)
+(node:1617) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Ignore file not found: /home/stevewwhite/.geminiignore, continue without it.
+Ignore file not found: /home/stevewwhite/.aiexclude, continue without it.
+Ignore file not found: /home/stevewwhite/.geminiignore, continue without it.
+Ignore file not found: /home/stevewwhite/.aiexclude, continue without it.
+Ignore file not found: /home/stevewwhite/.geminiignore, continue without it.
+Ignore file not found: /home/stevewwhite/.aiexclude, continue without it.
+Ignore file not found: /home/stevewwhite/.geminiignore, continue without it.
+Ignore file not found: /home/stevewwhite/.aiexclude, continue without it.
+Loading extension: vertex
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4257.216617
+[INFO] 2026-03-01 10:50:03.145 AM -- [Config] Using CCPA Auth:
+Failed to load credentials from /home/stevewwhite/.gemini/oauth_creds.json: ENOENT: no such file or directory, open '/home/stevewwhite/.gemini/oauth_creds.json'
+[?1049h[2J[H[?1006l[?1002l[<u[?7hPlease visit the following URL to authorize the application:
+
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https%3A%2F%2Fcodeassist.google.com%2Fauthcode&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&code_challenge_method=S256&code_challenge=HBjwH10JMU_Hebgt0TT7I6n30g6qXnLiuDZVxxRPiTo&state=01bd381af9180fc641206be4ba1803c3b8ed1d2bda27e28deb59287e472ef18e&response_type=code&client_id=681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com
+[1G[0JEnter the authorization code: [31G

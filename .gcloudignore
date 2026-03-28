@@ -1,0 +1,8 @@
+# Ignore everything first
+*
+
+# Only allow these specific files
+!app.py
+!requirements.txt
+!Dockerfile
+!.gcloudignore

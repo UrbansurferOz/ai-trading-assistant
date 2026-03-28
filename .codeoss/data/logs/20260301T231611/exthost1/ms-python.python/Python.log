@@ -1,0 +1,145 @@
+2026-03-01 23:16:43.602 [warning] Dir "/home/stevewwhite/.pixi/envs" is not watchable (directory does not exist)
+2026-03-01 23:16:44.973 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-01 23:16:44.976 [info] Python interpreter path: /bin/python
+2026-03-01 23:16:45.375 [info] > pyenv which python
+2026-03-01 23:16:45.375 [info] cwd: .
+2026-03-01 23:16:49.196 [info] Starting Jedi language server for stevewwhite.
+2026-03-01 23:17:22.293 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/agent.py
+2026-03-01 23:17:25.155 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/agent.py
+2026-03-02 01:15:56.677 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/stevewwhite/rag-21857/requirements.txt
+2026-03-02 01:15:56.701 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./rag-21857/requirements.txt
+2026-03-02 01:16:06.611 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/stevewwhite/rag-21857/requirements.txt
+2026-03-02 01:16:06.611 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./rag-21857/requirements.txt
+2026-03-02 01:16:11.553 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/stevewwhite/rag-21857/requirements.txt
+2026-03-02 01:16:11.553 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./rag-21857/requirements.txt
+2026-03-02 02:15:27.860 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-deploy-final/agent.py
+2026-03-02 02:15:35.819 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-deploy-final/agent.py
+2026-03-02 02:15:36.891 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-deploy-final/agent.py
+2026-03-02 02:16:23.541 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-deploy-final/agent.py
+2026-03-02 02:16:26.186 [info] Discover tests for workspace name: stevewwhite - uri: /home/stevewwhite/sydney-deploy-final/agent.py
+2026-03-02 02:16:44.008 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/stevewwhite/sydney-deploy-final/requirements.txt
+2026-03-02 02:16:44.008 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./sydney-deploy-final/requirements.txt
+2026-03-02 02:16:51.094 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/stevewwhite/sydney-deploy-final/requirements.txt
+2026-03-02 02:16:51.095 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./sydney-deploy-final/requirements.txt
+2026-03-02 02:16:53.987 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/stevewwhite/sydney-deploy-final/requirements.txt
+2026-03-02 02:16:53.987 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./sydney-deploy-final/requirements.txt

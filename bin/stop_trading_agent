@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "🛑 Shutting down Agent..."
+pkill -f streamlit
+echo "✅ Agent stopped."

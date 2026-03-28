@@ -1,0 +1,13 @@
+2026-03-08 06:54:18.216 [warning] Dir "/home/stevewwhite/.pixi/envs" is not watchable (directory does not exist)
+2026-03-08 06:54:20.326 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-08 06:54:20.382 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-03-08 06:54:20.443 [info] Python interpreter path: /bin/python
+2026-03-08 06:54:21.387 [info] > pyenv which python
+2026-03-08 06:54:21.387 [info] cwd: .
+2026-03-08 06:54:24.241 [info] Starting Jedi language server for stevewwhite.
+2026-03-08 06:54:27.549 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2026-03-08 06:54:32.522 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2026-03-08 06:54:33.243 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2026-03-08 06:54:34.055 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2026-03-08 06:54:35.175 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2026-03-08 06:54:35.914 [info] Discover tests for workspace name: undefined - uri: /User/settings.json

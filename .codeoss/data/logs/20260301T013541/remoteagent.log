@@ -1,0 +1,11 @@
+2026-03-01 01:35:41.713 [info] 
+
+
+
+
+2026-03-01 01:35:41.727 [info] Extension host agent started.
+2026-03-01 01:35:41.746 [info] Started initializing default profile extensions in extensions installation folder. file:///home/stevewwhite/.codeoss/extensions
+2026-03-01 01:35:41.758 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/stevewwhite/.codeoss/extensions
+2026-03-01 01:35:44.352 [info] [127.0.0.1][d56732c7][ManagementConnection] New connection established.
+2026-03-01 01:35:44.612 [info] [127.0.0.1][6dfcb488][ExtensionHostConnection] New connection established.
+2026-03-01 01:35:45.987 [info] [127.0.0.1][6dfcb488][ExtensionHostConnection] <1544> Launched Extension Host Process.

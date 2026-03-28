@@ -1,0 +1,4 @@
+2026-03-08 06:54:19.363 [info] Log level: Info
+2026-03-08 06:54:21.627 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-08 06:54:22.031 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-08 06:55:37.852 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for UrbansurferOz/ai-trading-assistant: Error: No GitHub authentication session available.

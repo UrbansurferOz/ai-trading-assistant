@@ -1,0 +1,16 @@
+#!/bin/bash
+PROJECT_DIR="/home/stevewwhite/ai-trading-assistant"
+cd "$PROJECT_DIR" || exit
+
+echo "🧠 Refreshing TBD Cache..."
+python3 build_tbd_cache.py
+
+echo "🚀 Launching TBD Dashboard..."
+pkill -f streamlit
+nohup streamlit run tbd_dashboard.py \
+    --server.port 8080 \
+    --server.enableCORS=false \
+    --server.enableXsrfProtection=false \
+    --server.enableWebsocketCompression=false > ~/trading_agent.log 2>&1 &
+
+echo "✅ System Ready. Check Port 8080."

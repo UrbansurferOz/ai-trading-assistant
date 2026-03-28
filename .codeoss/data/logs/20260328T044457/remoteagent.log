@@ -1,0 +1,19 @@
+2026-03-28 04:44:57.413 [info] 
+
+
+
+
+2026-03-28 04:44:57.413 [info] Extension host agent started.
+2026-03-28 04:45:01.287 [info] [127.0.0.1][77ed0241][ManagementConnection] New connection established.
+2026-03-28 04:45:01.507 [info] [127.0.0.1][a3d46a55][ExtensionHostConnection] New connection established.
+2026-03-28 04:45:05.394 [info] [127.0.0.1][a3d46a55][ExtensionHostConnection] <1979> Launched Extension Host Process.
+2026-03-28 04:45:06.000 [info] [127.0.0.1][a3d46a55][ExtensionHostConnection] <1979> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-03-28 04:45:41.453 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/stevewwhite/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory (EUNKNOWN) (path: /home/stevewwhite)
+2026-03-28 04:45:41.454 [error] [File Watcher (universal)] inotify_add_watch on '/home/stevewwhite/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory
+2026-03-28 04:47:26.992 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-28 04:47:27.012 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-28 04:47:27.073 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-28 04:47:27.353 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-28 04:47:27.354 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-28 04:50:28.245 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
